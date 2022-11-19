@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header{
+    background-image: url("../assets/hero-gradient.png");
+    min-height: 100vh;
+    width:cover;
+    padding: 20px;
+    text-align: left;
+}
+
+header > div a {
+    color: #FFA41C;
+    text-decoration: none;
+}
+
+.features {
+    background-color: #242B33;
+    color: #ffffff;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+/* Resets */
+.btn-primary {
+    color: #484848;
+    background-color: #FFA41C;
+    border-color: #FFA41C;
+}

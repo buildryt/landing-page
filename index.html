@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>BuildRyt</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light">BuildRyt</a>
+          <a class="btn btn-primary" href="#waitlist-form">Join Waitlist</a>
+        </div>
+      </nav>
+
+      <div class="py-5 mb-4 mt-5">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold text-light">
+            Build Right the First Time
+          </h1>
+          <p class="col-md-7 fs-4 text-light">
+            Buildryt is a digital collaboration tool which allows African
+            construction professionals to automatically generate reports,track
+            expenses and communicate in real time using annotations.
+          </p>
+          <a href="#waitlist-form"
+            >Join Waitlist <i data-feather="arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6 h-100 p-5 text-dark rounded-3 align-self-center">
+            <h2>Construction Management for Everyone</h2>
+            <p>
+              Buildryt brings together all the stakeholders in one place. This
+              reduces conflicts in collaboration as all the stakeholders are on
+              the same page throughout the development phase. Without an
+              efficient collaborative tool, projects can exceed cost and time..
+            </p>
+          </div>
+          <div class="col-md-6 h-100 p-5">
+            <img src="./assets/about_image.png" alt="three men discussing" />
+          </div>
+        </div>
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6 h-100 p-5">
+            <img src="./assets/how_it_works.png" alt="three men discussing" />
+          </div>
+          <div class="col-md-6 h-100 p-5 text-dark rounded-3 align-self-center">
+            <h2>How It Works</h2>
+            <p>
+              Buildryt enables you to load a 3D model from your design tool of
+              choice. Add all the stakeholders to the project and start
+              collaborating on any device, any where.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2">Features</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <div class="feature col">
+              <i data-feather="activity" class="text-secondary"></i>
+              <h3>Remote Supervision</h3>
+              <p>
+                The ability for owners, contractors and subcontractors to
+                remotely supervise projects on any platform, anywhere.
+              </p>
+            </div>
+            <div class="feature col">
+              <i data-feather="book-open" class="text-secondary"></i>
+              <h3>Transparency</h3>
+              <p>
+                Know about all the costs and schedule at every stage of the
+                development
+              </p>
+            </div>
+          </div>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <div class="feature col">
+              <i data-feather="fast-forward" class="text-secondary"></i>
+              <h3>Efficiency</h3>
+              <p>
+                Make faster decisions, identify mistakes early and reducing
+                rework.
+              </p>
+            </div>
+            <div class="feature col">
+              <i data-feather="airplay" class="text-secondary"></i>
+              <h3>Real-Time Collaboration</h3>
+              <p>
+                Every stakeholder is aware of the progress of the development
+                project
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-5">
+      <div class="row justify-content-center py-5">
+        <div class="col-md-7 mb-3">
+          <form
+            id="waitlist-form"
+            method="POST"
+            action="https://forms.reform.app/headless/9amwj9/untitled-form/sca06i/submissions"
+          >
+            <h3 class="text-center">Join Waitlist</h3>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label
+                for="9a03033a-5acb-496c-bca9-a7a56599ca47"
+                class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="9a03033a-5acb-496c-bca9-a7a56599ca47"
+                name="answers[9a03033a-5acb-496c-bca9-a7a56599ca47]"
+                type="email"
+                class="form-control"
+                placeholder="Email address"
+                required
+              />
+              <button class="btn btn-primary" type="button">
+                Join Waitlist
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="border-top py-4">
+        <p class="text-center">© 2022 Company, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
